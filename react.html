@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portifolio</title>
+    <title>portfólio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="./css//bootstrap.css" />
+    <link rel="stylesheet" href="./css//style.css" />
   </head>
   <body>
     <!-- Top menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Portifolio</a>
+        <a class="navbar-brand" href="./app.html">Portfólio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -27,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="./index.html"
+              <a class="nav-link active" href="./app.html"
                 >Tiago Emanuel
                 <span class="visually-hidden">(current)</span>
               </a>
@@ -51,7 +52,14 @@
       </div>
     </nav>
     <br />
-    <h1>React</h1>
+    <div class="logo">
+      <div>
+        <img src="./img/react-brands.svg" alt="react" />
+        <h4>React</h4>
+      </div>
+    </div>
+    <br />
+    <br />
     <br />
     <!-- !PAGE CONTENT! -->
     <div class="d-flex justify-content-around">
@@ -62,9 +70,10 @@
         <img src="./img/Marvel.png" />
         <div class="card-body">
           <p class="card-text">
-            Projeto desenvolvido com React, Hooks e axios. Neste para fazer as
-            requisições a API, é possível pesquisar e salvar hérois e
-            quadrinhos.
+            Este projeto exibe heróis e quadrinhos do universo Marvel, fazendo
+            requisição a uma API utilizando axios, controlando o estado com
+            Hooks, gerenciando rotas com React Router e salvando as informações
+            no localStorage.
           </p>
         </div>
         <div class="card-body">
@@ -80,12 +89,17 @@
         <h3 class="card-header">Rango Food</h3>
         <img src="./img/Food.jpg" />
         <div class="card-body">
-          <p class="card-text"></p>
+          <p class="card-text">
+            Nesse projeto aprendi a utilizar o Redux Toolkit, que inclui várias
+            funções utilitárias que simplificam os casos de uso mais comuns do
+            Redux e simplifica a lógica de atualização do estado. O maior
+            desafio deste projeto foi controlar o estado do carrinho de compras.
+          </p>
         </div>
         <div class="card-body">
-          <a href="https://tiago-ers.github.io/api_marvel/" target="blank"
+          <!-- <a href="https://tiago-ers.github.io/api_marvel/" target="blank"
             >Link</a
-          >
+          > -->
         </div>
       </div>
     </div>
